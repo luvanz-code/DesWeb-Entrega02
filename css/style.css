@@ -1,0 +1,12 @@
+body {
+    font-family: "Lucida Bright", serif;
+}
+
+.efeito-fade {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.efeito-fade:hover {
+    opacity: 0.7;
+}
