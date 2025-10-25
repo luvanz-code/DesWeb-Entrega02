@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head> <!--Configurações da Página-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ong Água Limpa para Todos - Início</title> <!--Título-->
-    <link rel="shortcut icon" href="Imagens/gota.ico" type="image/x-icon"> <!--Flavicon-->
+    <link rel="shortcut icon" href="../Imagens/icon-agua-potavel-carro-pipa.webp" type="image/x-icon"> <!--Flavicon-->
     <meta name="description"
         content="Página inicial da Ong Água Limpa para Todos, uma organização dedicada a levar água potável e saneamento para comunidades carentes.">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -13,8 +14,18 @@
         body {
             font-family: "Lucida Bright", serif;
         }
+
+        .efeito-fade {
+            opacity: 1;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .efeito-fade:hover {
+            opacity: 0.7;
+        }
     </style>
 </head>
+
 <body class="bg-gray-50 text-gray-800">
     <!-- Cabeçalho e Navegação -->
     <header class="bg-white shadow-md">
@@ -27,9 +38,11 @@
                     <ul class="flex space-x-6 text-lg">
                         <li><a href="index.html"
                                 class="text-blue-600 font-semibold border-b-2 border-blue-600">Início</a></li>
-                        <li><a href="projetos.html" class="text-gray-600 hover:text-blue-600 transition">Projetos</a>
+                        <li><a href="../html/Projetos.html"
+                                class="text-gray-600 hover:text-blue-600 transition">Projetos</a>
                         </li>
-                        <li><a href="cadastro.html" class="text-gray-600 hover:text-blue-600 transition">Participe</a>
+                        <li><a href="../html/Cadastro.html"
+                                class="text-gray-600 hover:text-blue-600 transition">Participe</a>
                         </li>
                     </ul>
                 </nav>
@@ -42,52 +55,71 @@
         <section class="bg-blue-600 text-white text-center py-20 px-6">
             <div class="container mx-auto">
                 <h2 class="text-4xl md:text-5xl font-bold mb-4">Transformando Vidas com Água Potável</h2>
-                <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto">Acreditamos que o acesso à água limpa é um direito humano fundamental. Junte-se a nós para levar saúde, dignidade e esperança a comunidades em todo o Brasil.</p>
+                <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto">Acreditamos que o acesso à água limpa é um direito
+                    humano fundamental. Junte-se a nós para levar saúde, dignidade e esperança a comunidades em todo o
+                    Brasil.</p>
                 <a href="projetos.html"
-                    class="bg-white text-blue-600 font-bold py-3 px-8 rounded-full text-lg hover:bg-blue-100 transition">Conheça Nossos Projetos</a>
+                    class="bg-white text-blue-600 font-bold py-3 px-8 rounded-full text-lg transition hover:bg-blue-700 hover:text-white">
+                    Conheça Nossos Projetos
+                </a>
             </div>
         </section>
         <!-- Seção Sobre Nós -->
         <section class="py-16 px-6">
-            <div class="container mx-auto text-center">
-                <h2 class="text-3xl font-bold mb-8">Nossa Missão</h2>
-                <div class="flex flex-col md:flex-row items-center gap-12">
-                    <div class="md:w-1/2">
-                        <div style="display:flex; justify-content: left; align-items: center;">
-                        <img src="Imagens/icon-agua-potavel-carro-pipa.webp" alt="Imagem de uma gota de água">
-                        </div>
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-8 text-center">Nossa Missão</h2>
+
+                <div class="flex flex-col md:flex-row items-start md:items-center gap-6 md:gap-8">
+                    <div class="md:flex-shrink-0">
+                        <img src="../Imagens/icon-agua-potavel-carro-pipa.webp" alt="Imagem de uma gota de água"
+                            class="efeito-fade mr-0 md:mr-6 w-40 sm:w-48 md:w-56 lg:w-72 max-w-full h-auto" />
                     </div>
-                    <div class="md:w-1/2 text-left">
+
+                    <div class="text-left">
                         <p class="text-lg leading-relaxed mb-4">
-                            A <strong>ONG Água Limpa para Todos</strong> nasceu do sonho de erradicar as doenças e a pobreza causadas pela falta de acesso à água potável e saneamento básico. Atuamos em comunidades rurais e periféricas, implementando soluções sustentáveis que mudam realidades.
+                            A <strong>ONG Água Limpa para Todos</strong> nasceu do sonho de erradicar as doenças e a
+                            pobreza causadas pela falta de acesso à água potável e saneamento básico. Atuamos em
+                            comunidades rurais e periféricas, implementando soluções sustentáveis que mudam realidades.
                         </p>
                         <p class="text-lg leading-relaxed">
-                            Desde a perfuração de poços artesianos até a instalação de sistemas de captação de água da chuva e programas de educação sanitária, nosso trabalho é feito em conjunto com a comunidade, garantindo que o impacto seja duradouro e que os moradores se tornem guardiões de seus próprios recursos hídricos.
+                            Desde a perfuração de poços artesianos até a instalação de sistemas de captação de água da
+                            chuva e programas de educação sanitária, nosso trabalho é feito em conjunto com a
+                            comunidade, garantindo que o impacto seja duradouro e que os moradores se tornem guardiões
+                            de seus próprios recursos hídricos.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Seção de Impacto -->
-        <section class="bg-gray-100 py-16 px-6">
+        <<section class="bg-gray-100 py-16 px-6">
             <div class="container mx-auto text-center">
                 <h2 class="text-3xl font-bold mb-12">Nosso Impacto em Números</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
                     <article class="bg-white p-8 rounded-lg shadow-md">
-                        <h3 class="text-5xl font-bold text-blue-600 mb-2">+15.000</h3>
+                        <h3 class="counter text-5xl font-bold text-blue-600 mb-2" <p>+15000</p>
+                        </h3>
                         <p class="text-lg text-gray-700">Pessoas com acesso à água potável</p>
                     </article>
+
                     <article class="bg-white p-8 rounded-lg shadow-md">
-                        <h3 class="text-5xl font-bold text-blue-600 mb-2">50+</h3>
+                        <h3 class="counter text-5xl font-bold text-blue-600 mb-2" <p>+20</p>
+                        </h3>
                         <p class="text-lg text-gray-700">Poços artesianos perfurados</p>
                     </article>
+
                     <article class="bg-white p-8 rounded-lg shadow-md">
-                        <h3 class="text-5xl font-bold text-blue-600 mb-2">200+</h3>
+                        <h3 class="counter text-5xl font-bold text-blue-600 mb-2" <p>+200</p>
+                        </h3>
                         <p class="text-lg text-gray-700">Famílias com cisternas instaladas</p>
                     </article>
+
                 </div>
             </div>
-        </section>
+            </section>
+
+
     </main>
     <!-- Rodapé -->
     <footer class="bg-gray-800 text-white py-10 px-6">
@@ -104,6 +136,10 @@
             <p class="mt-6 text-sm text-gray-400">&copy; 2025 Ong Água Limpa para Todos. Todos os direitos reservados.
             </p>
         </div>
+
+
+
     </footer>
 </body>
+
 </html>

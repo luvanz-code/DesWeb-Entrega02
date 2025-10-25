@@ -1,2 +1,3 @@
 # DesWeb-Entrega02
-Entrega 02
+Atividade 02 - Desenvolvimento Front-end para Web
+Segunda atividade da disciplina de Desenvolvimento Front-end para web
