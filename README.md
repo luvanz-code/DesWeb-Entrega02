@@ -1,8 +1,4 @@
 # DesWeb-Entrega02
-Com certeza! Vou simplificar o README.md para ser mais direto e focado nos pontos essenciais da sua entrega para a disciplina de Desenvolvimento Front-End.
-
-Aqui está o modelo simplificado e eficiente:
-
 💧 ONG Água Limpa para Todos
 💻 Sobre o Projeto
 Este projeto consiste no desenvolvimento do site institucional para a ONG fictícia Água Limpa para Todos. O objetivo é demonstrar competências em:
